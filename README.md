@@ -8,3 +8,11 @@ Instalar los paquetes
 ```
 npm install
 ```
+## Comandos de la aplicación
+
+Crear una tarea: node app crear -descripcion "Debo correr a las 6am" -completado false
+Listar tareas: node app listar
+Actualizar una tarea: node app actualizar -descripcion "Debo correr a las 6am" 
+Borrar una tarea: node app borrar -descripcion "Debo correr a las 6am"
+
+Se puede utilizar alias por ejemplo: -d -c 
